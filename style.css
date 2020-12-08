@@ -1,0 +1,1061 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/** BODY **/
+body{
+    background-color: #333;
+}
+
+/** HEADER **/
+header{
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    width: 90.4%;
+    height: 55px;
+    background-image: linear-gradient(to left,rgb(58, 114, 61), rgb(4, 41, 15));
+    z-index:1;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* SPAN*/
+header span{
+    float: left;
+    width: 300px;
+    height:55px ;
+}
+span img{
+    float: left;
+    margin-top: 1px;
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    padding: 4px;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+span img:hover{
+    border: 2px double orangered ;
+    width: 36px;
+    height: 36px;
+}
+span h2{
+    float: left;
+    text-shadow: 2px 1px rgba(168, 21, 21, 0.61);
+    font-size: 28px;
+    font-family:Cambria;
+    height: 55px;
+    line-height: 55px;
+    margin-left: 10px;
+    color: blanchedalmond;
+}
+/* UL */
+ul{
+    list-style-type: none;
+    color: palegoldenrod;
+}
+ul li{
+    margin-left: 1px;
+    height: 55px;
+    line-height: 55px;
+    width: 160px;
+    display: inline-block;
+    text-align: center;
+}
+ul li a{
+    text-decoration: none;
+}
+ul li h2{
+    font-size: 22px;
+    font-family:Cambria;
+    color: palegoldenrod;
+    height: 55px;
+    line-height: 55px;
+}
+ul li h2:hover{
+    background-color: rgb(1, 32, 1);
+    color: orange;
+    border:2px solid orange ;
+    border-left:none ;
+    border-right:none ;
+    height: 51px;
+    line-height: 51px;
+}
+#li1{
+    width: 105px;
+}
+#li2{
+    width: 90px;
+}
+#li3{
+    width: 130px;
+}
+
+/** MAIN **/
+main{
+    border-radius: 15px ;
+    position: relative;
+    top: 70px;
+    width: 90%;
+    left: 5%;
+    height: 900px;
+    background-image: url(./img/bg1.jpg);
+    background-size: cover;
+    background-position:center ;
+    margin-bottom: 50px;
+    border: 4px double  rgba(0, 0, 0, 0.651);
+}
+
+#box{
+    position: absolute;
+    top: 33%;
+    left: 25%;
+    height: 30%;
+    width: 50%;
+    background-color:  rgba(0, 0, 0, 0.651);
+    text-align: center;
+    padding-top: 5%;
+    border-radius: 20px;
+}
+
+#box a{
+    text-decoration: none;
+}
+#d1{
+    margin-bottom: 20px;
+    color: blanchedalmond;
+    margin-bottom: 25px;
+}
+
+#b1{
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    height: 50px;
+    line-height: 50px;
+    width: 300px;
+    color: blanchedalmond;
+    background-color: rgba(5, 70, 70, 0.596);
+}
+
+#b1:hover{
+    background-color: rgb(1, 32, 1);
+    color: orange;
+    border:2px solid orange ;
+    height: 46px;
+    line-height: 46px;
+}
+
+/** DIV PRODUIT **/
+#produit{
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 450px;
+    padding: 3px;
+    background: linear-gradient(to right, #71B280, #134E5E);
+    border: 4px double  rgba(0, 0, 0, 0.651);
+    border-radius: 15px ;
+}
+#produit h2{
+    color: blanchedalmond;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: rgba(0, 0, 0, 0.651);
+    border-radius: 15px;
+    text-align: center;
+}
+
+/* Article */
+#ar-div{
+    margin: auto;
+    height: 390px;
+    width: 96%;
+    display: flex;
+    justify-content: center;
+}
+#ar-div article{
+    margin: 15px;
+    float: left;
+    width: 340px;
+    height: 320px;
+    border: 2px solid rebeccapurple;
+    border-radius: 15px;
+    text-align: center;
+}
+#ar-div article img{
+    width: 90%;
+    margin:5%;
+    border: 2px solid burlywood ;
+    border-radius: 15px;
+}
+#ar-div article img:hover{
+    animation-name: img_animation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+#ar-div article h2{
+    margin-left: 10%;
+    width: 80%;
+    border:2px solid rebeccapurple ;
+    border-left: none ;
+    border-right: none;
+    padding: 5px;
+    color: blanchedalmond;
+    height: 48px;
+    line-height: 48px;
+}
+
+#ar-div article h2:hover{
+    animation-name: h_animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate ;
+}
+
+/** DIV ABOUT **/
+#about{
+    border: 4px double  rgba(0, 0, 0, 0.651);
+    position: relative;
+    top: 4%;
+    left: 5%;
+    width: 90%;
+    height: 190px;
+    padding: 3px;
+    background: linear-gradient(to right, #134E5E, #71b280a1);
+    border-radius: 15px ;
+    text-align: center;
+    margin-bottom: 15px;
+}
+#about h2{
+    color: blanchedalmond;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color:  rgba(0, 0, 0, 0.651);
+    border-radius: 15px;
+}
+#about article{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+/** DIV localizationT **/
+#localization{
+    position: relative;
+    top: 3.2%;
+    left: 5%;
+    width: 90%;
+    height:520px;
+    padding: 3px;
+    background: linear-gradient(to right, #71B280, #134E5E);
+    border: 4px double  rgba(0, 0, 0, 0.651);
+    border-radius: 15px ;
+    margin-bottom: 15px;
+}
+
+#localization h2{
+    color: blanchedalmond;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color:  rgba(0, 0, 0, 0.651);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#localization article{
+    width: 80%;
+    height:450px;
+    margin: auto;
+    margin-top: 7px;
+    border: 5px solid orange;
+    border-radius: 20px;
+}
+#localization iframe{
+    width: 100%;
+    border-radius: 15px;
+}
+
+/** FOOTER **/
+footer{
+    position: relative;
+    top: 3.2%;
+    left: 5%;
+    width: 90%;
+    height: 190px;
+    padding: 3px;
+    background: linear-gradient(to right, #134E5E, #71B280);
+    border: 4px double  rgba(0, 0, 0, 0.651);
+    border-radius: 15px ;
+    text-align: center;
+    margin-bottom: 10px;
+}
+footer article{
+    height: 80px;
+    padding-bottom: 10px;
+}
+footer h2{
+    color: blanchedalmond;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color:  rgba(0, 0, 0, 0.651);
+    border-radius: 15px;
+}
+footer ul li{
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    }
+footer img{
+    background-color: orangered;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+footer img:hover{
+    border: 2px double orange;
+    height: 55px;
+    width: 55px;
+    animation-name:img_animation ;
+    animation-duration: 3s;
+    animation-delay:1s ;
+    animation-iteration-count: infinite;
+}
+footer h5{
+    margin-top: 15px;
+}
+
+/** ANIMATION **/
+@keyframes img_animation{
+    0%{
+        -webkit-transform:rotateY(0);transform:rotateY(0)
+      }
+
+    100%{
+        -webkit-transform:rotateY(360deg);transform:rotateY(360deg)
+    }
+}
+
+@keyframes h_animation{
+    from {
+        background-color: rgba(255, 255, 255, 0.692);
+        color: rgba(0, 0, 0, 0.616);
+        height: 0px;
+    }
+    to{
+        background-color: rgb(0, 0, 0);
+        color: aliceblue;
+        height: 48px;
+    }
+}
+
+@media only screen and (max-width: 1090px) and (min-width: 905px){
+/** heder **/
+header{
+    height: 50px;
+}
+
+/* span */
+span img{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+}
+span img:hover{
+    width: 31px;
+    height: 31px;
+}
+span h2{
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+}
+
+/* UL */
+ul li{
+    height: 50px;
+    line-height: 50px;
+    width: 130px;
+}
+ul li h2{
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+}
+ul li h2:hover{
+    height: 46px;
+    line-height: 46px;
+}
+#li1{
+    width: 90px;
+}
+#li2{
+    width: 75px;
+}
+#li3{
+    width: 110px;
+}
+
+/** MAIN **/
+main{
+    top: 60px;
+    height: 600px;
+    margin-bottom: 60px;
+}
+#box{
+    height: 35%;
+}
+#d1{
+    font-size: 26px;
+}
+
+#b1{
+    font-size: 24px;
+    height: 35px;
+    line-height: 35px;
+    width: 200px;
+}
+
+#b1:hover{
+    height: 31px;
+    line-height: 31px;
+}
+/** DIV PRODUIT **/
+#produit{
+    height: 370px;
+}   
+#produit h2{
+font-size:  26px;
+}
+
+/* Article */
+#ar-div article{
+    height: 280px;
+}
+
+/** DIV ABOUT **/
+#about{
+    height: 180px;
+    margin-top: 6px;
+}
+#about h2{
+    font-size: 26px;
+}
+/** DIV localizationT **/
+#localization h2{
+   font-size: 26px;
+}
+/** FOOTER **/
+footer{
+    top:3%;
+    margin-bottom: 10px;
+}
+footer h2{
+    font-size: 26px;
+}
+
+}
+@media only screen and (max-width: 904px) and (min-width: 700px){
+    /** heder **/
+    header{
+        height: 40px;
+    }
+    
+    /* span */
+    header span{
+        width: 210px;
+        height:40px ;
+    }
+    span img{
+        width: 29px;
+        height: 29px;
+    }
+    span img:hover{
+        width: 26px;
+        height: 26px;
+    }
+    span h2{
+        font-size: 20px;
+        height: 40px;
+        line-height: 40px;
+    }
+    
+    /* UL */
+    ul li{
+        height: 40px;
+        line-height: 40px;
+        width: 112px;
+    }
+    ul li h2{
+        font-size: 16px;
+        height: 40px;
+        line-height: 40px;
+    }
+    ul li h2:hover{
+        height: 36px;
+        line-height: 36px;
+    }
+    #li1{
+        width: 75px;
+    }
+    #li2{
+        width: 62px;
+    }
+    #li3{
+        width: 95px;
+    }
+    
+    /** MAIN **/
+    main{
+        top: 60px;
+        height: 500px;
+        margin-bottom: 60px;
+    }
+    #box{
+        height: 35%;
+    }
+    #d1{
+        font-size: 25px;
+    }
+    
+    #b1{
+        font-size: 23px;
+        height: 35px;
+        line-height: 35px;
+        width: 200px;
+    }
+    
+    #b1:hover{
+        height: 31px;
+        line-height: 31px;
+    }
+    /** DIV PRODUIT **/
+    #produit{
+        height: 310px;
+    }   
+    #produit h2{
+    font-size:  25px;
+    }
+    
+    /* Article */
+    #ar-div article{
+        height: 230px;
+    }
+    
+    /** DIV ABOUT **/
+    #about{
+        height: 193px;
+        margin-top: 6px;
+    }
+    #about h2{
+        font-size: 25px;
+    }
+    /** DIV localizationT **/
+    #localization h2{
+       font-size: 25px;
+    }
+    /** FOOTER **/
+    footer{
+        top:3%;
+        margin-bottom: 10px;
+        height: 165px;
+    }
+    footer article{
+        height: 60px;
+    }
+
+    footer img{
+        background-color: orangered;
+        height: 43px;
+        width: 43px;
+        border-radius: 50%;
+    }
+
+    footer img:hover{
+        height: 45px;
+        width: 45px;
+    }
+
+    footer h2{
+        font-size: 25px;
+    }
+    
+    }
+@media only screen and (max-width: 699px) and (min-width: 650px){
+        /** heder **/
+        header{
+            height: 40px;
+        }
+        
+        /* span */
+        header span{
+            width: 210px;
+            height:40px ;
+        }
+        span img{
+            width: 29px;
+            height: 29px;
+        }
+        span img:hover{
+            width: 26px;
+            height: 26px;
+        }
+        span h2{
+            font-size: 20px;
+            height: 40px;
+            line-height: 40px;
+        }
+        
+        /* UL */
+        ul li{
+            height: 40px;
+            line-height: 40px;
+            width: 112px;
+        }
+        ul li h2{
+            font-size: 16px;
+            height: 40px;
+            line-height: 40px;
+        }
+        ul li h2:hover{
+            height: 36px;
+            line-height: 36px;
+        }
+        #li1{
+            width: 75px;
+        }
+        #li2{
+            width: 62px;
+        }
+        #li3{
+            width: 95px;
+        }
+        
+        /** MAIN **/
+        main{
+            top: 60px;
+            height: 500px;
+            margin-bottom: 60px;
+        }
+        #box{
+            height: 35%;
+        }
+        #d1{
+            font-size: 25px;
+        }
+        
+        #b1{
+            font-size: 23px;
+            height: 35px;
+            line-height: 35px;
+            width: 200px;
+        }
+        
+        #b1:hover{
+            height: 31px;
+            line-height: 31px;
+        }
+        /** DIV PRODUIT **/
+        #produit{
+            height: 280px;
+        }   
+        #produit h2{
+        font-size:  25px;
+        }
+        
+        /* Article */
+        #ar-div article{
+            width: 150%;
+            height: 200px;
+        }
+        
+        /** DIV ABOUT **/
+        #about{
+            height: 193px;
+            margin-top: 6px;
+        }
+        #about h2{
+            font-size: 25px;
+        }
+        /** DIV localizationT **/
+        #localization h2{
+           font-size: 25px;
+        }
+        /** FOOTER **/
+        footer{
+            top:3%;
+            margin-bottom: 10px;
+            height: 165px;
+        }
+        footer article{
+            height: 60px;
+        }
+    
+        footer img{
+            background-color: orangered;
+            height: 43px;
+            width: 43px;
+            border-radius: 50%;
+        }
+    
+        footer img:hover{
+            height: 45px;
+            width: 45px;
+        }
+    
+        footer h2{
+            font-size: 25px;
+        }
+        
+    }
+@media only screen and (min-width:500px) and (max-width:649px) {
+/** HEADER **/
+header{
+    height: 62px;
+}
+/* SPAN*/
+#iconbox{
+    position: relative;
+    left: 27%;
+    width: 50%;
+    height:40px ;
+}
+#iconbox img{
+    width: 29px;
+    height: 29px;
+}
+#iconbox img:hover{
+    width: 25px;
+    height: 25px;
+}
+#iconbox h2{
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+/* UL */
+ul{
+    display: flex;
+    position: relative;
+    text-justify: center;
+    width: 80%;
+    top: 1%;
+    margin: auto;
+}
+ul li{
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+    text-align: center;
+}
+ul li h2{
+    font-size: 16px;
+    font-family:Cambria;
+    color: palegoldenrod;
+    height: 20px;
+    line-height: 20px;
+}
+ul li h2:hover{
+    height: 17px;
+    line-height: 18px;
+}
+#li1{
+    width: 90px;
+}
+#li2{
+    width: 70px;
+}
+#li3{
+    width: 120px;
+}
+#li4{
+    width: 130px;
+}
+
+/** MAIN **/
+main{
+    height: 500px;
+}
+
+#box{
+    top: 32%;
+    left: 15%;
+    height: 36%;
+    width: 70%;
+    padding-top: 4%;
+}
+
+#d1{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#b1{
+    font-size: 23px;
+    height: 35px;
+    line-height: 35px;
+    width: 200px;
+}
+#b1:hover{
+    border:1px solid orange ;
+    height: 33px;
+    line-height: 33px;
+}
+
+/** DIV PRODUIT **/
+#produit{
+    position: relative;
+    top: 3%;
+    left: 5%;
+    width: 90%;
+    height: 1000px;
+}
+#produit h2{
+    font-size: 22px;
+}
+
+/* Article */
+#ar-div{
+    position: absolute;
+    height: 950px;
+    width: 80%;
+    display: inline;
+    justify-self: center;
+    left: 10%;
+}
+#ar-div article{
+    width: 70%;
+    height: 280px;
+    margin-left:15% ;
+}
+
+#ar-div article h2{
+    height: 39px;
+    line-height: 39px;
+}
+
+
+/** DIV ABOUT **/
+#about{
+    height: 230px;
+}
+#about h2{
+font-size: 22px;
+}
+#about article{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+
+/** DIV localizationT **/
+#localization{
+    height:350px;
+}
+
+#localization h2{
+font-size: 22px;
+}
+#localization article{
+    height:280px;
+}
+
+#localization iframe{
+    width: 100%;
+    height: 100%;
+}
+
+/** FOOTER **/
+footer{
+    height: 160px;
+}
+footer article{
+    height: 58px;
+}
+
+footer h2{
+    font-size: 22px;
+}
+
+footer ul li{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+footer img{
+    background-color: orangered;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+footer img:hover{
+    border: 2px double orange;
+    height: 50px;
+    width: 50px;
+}
+footer h5{
+    margin-top: 10px;
+}
+}
+@media only screen and (max-width:490px){
+    /** HEADER **/
+    header{
+        width: 96%;
+        left: 2%;
+        height: 45px;
+    }
+    /* SPAN*/
+    #iconbox{
+        position: relative;
+        width: 100%;
+        height:45px ;
+    }
+    #iconbox img{
+        width: 29px;
+        height: 29px;
+    }
+    #iconbox h2{
+        font-size: 20px;
+        height: 30px;
+        line-height: 40px;
+    }
+    /* UL */
+    header ul{
+        display: none;
+    }
+    /** MAIN **/
+    main{
+        top: 8%;
+        height: 380px;
+    }
+    
+    #box{
+        top: 32%;
+        left: 15%;
+        height: 36%;
+        width: 70%;
+        padding-top: 4%;
+    }
+    
+    #d1{
+        margin-top: 10px;
+        font-size: 21px;
+    }
+    
+    #b1{
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+        width: 170px;
+    }
+ 
+    
+    /** DIV PRODUIT **/
+    #produit{
+        top: 1%;
+        height: 1000px;
+    }
+    #produit h2{
+        font-size: 22px;
+    }
+    
+    /* Article */
+    #ar-div{
+        background-color: red;
+        height: 950px;
+        width: 90%;
+        display: inline;
+        left: 5%;
+    }
+    #ar-div article{
+        width: 80%;
+        height: 280px;
+        margin-left:10% ;
+    }
+    #ar-div article h2{
+        font-size: 20px;
+        height: 39px;
+        line-height: 39px;
+    }
+    
+    /** DIV ABOUT **/
+    #about{
+        top: 2%;
+        height: 330px;
+    }
+    #about h2{
+    font-size: 18px;
+    }
+
+    
+    /** DIV localizationT **/
+    #localization{
+        top: 1%;
+        height:350px;
+    }
+    
+    #localization h2{
+    font-size: 19px;
+    }
+    #localization article{
+        height:280px;
+    }
+    #localization iframe{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /** FOOTER **/
+    footer{
+        top: 1px;
+        height: 120px;
+    }
+    footer article{
+        height: 40px;
+    }
+    
+    footer h2{
+        font-size: 20px;
+    }
+    
+    footer ul li{
+        margin-top: 8px;
+        margin-left: 4px;
+        margin-right: 4px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        }
+    footer img{
+        background-color: orangered;
+        height: 38px;
+        width: 38px;
+        border-radius: 50%;
+    }
+    
+    footer img:hover{
+        border: 1px double orange;
+        height: 38px;
+        width: .8px;
+        animation: none;
+    }
+    footer h5{
+        margin-top: 3px;
+        font-size: 10px;
+    }
+    }
